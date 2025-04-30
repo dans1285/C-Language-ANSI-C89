@@ -1,0 +1,19 @@
+# Ignore all executables (files without extensions in subfolders)
+*/[a-zA-Z0-9]*
+
+# But DO NOT ignore these important files
+!*/*.c
+!*/*.h
+!*/.gitkeep
+
+# Ignore common compiled output types
+*.out
+*.o
+*/a.out
+*/a.exe
+*/*.exe
+*/*.out
+*/*.o
+
+# Ignore all folders named 'output' in any chapter
+*/output/
