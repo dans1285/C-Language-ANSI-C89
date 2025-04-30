@@ -12,3 +12,8 @@ Explanation:
 To run the compiled program:
 
     ./st90
+
+
+ to push updated changes to GitHub
+ 
+ ./git-auto-push.sh
