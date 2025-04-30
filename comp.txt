@@ -1,5 +1,14 @@
-to compile :  gcc -std=c90 -o st90  file-name.c
+# How to Compile and Run C90 Code
 
+To compile a C source file using the C90 standard:
 
+    gcc -std=c90 -o st90 file-name.c
 
-then ./st90
+Explanation:
+- `-std=c90` → Use the ANSI C90 standard
+- `-o st90`  → Output executable named `st90`
+- `file-name.c` → Your source code file
+
+To run the compiled program:
+
+    ./st90
