@@ -1,0 +1,49 @@
+####################################
+# C DEVELOPMENT (.gitignore)
+####################################
+
+# Ignore compiled object files and executables
+*.o
+*.out
+*.a
+*.so
+*.exe
+a.out
+*.obj
+*.dll
+
+# Ignore any executable (files with no extension in subfolders)
+*/[a-zA-Z0-9]*
+!*/.gitkeep
+!*/*.c
+!*/*.h
+
+# Ignore folders named "output" or "bin" or "build"
+*/output/
+*/build/
+*/bin/
+
+####################################
+# VS CODE + SYSTEM
+####################################
+
+# VS Code settings
+.vscode/
+.vscode/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*~
+
+####################################
+# Backup files
+####################################
+*.bak
+*.old
+*.orig
