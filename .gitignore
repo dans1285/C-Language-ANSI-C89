@@ -1,9 +1,10 @@
 # Ignore executables and output folders in all chapter folders
-
-# Ignore all executables (no matter the name) in any subfolder
 **/*
 
-# But explicitly exclude source files and folders you want to keep:
+# Allow all folders
+!**/
+
+# Allow source files
 !**/*.c
 !**/*.h
 !**/*.txt
