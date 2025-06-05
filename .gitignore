@@ -1,49 +1,25 @@
-####################################
-# C DEVELOPMENT (.gitignore)
-####################################
+# Ignore executables and output folders in all chapter folders
 
-# Ignore compiled object files and executables
+# Ignore all executables (no matter the name) in any subfolder
+**/*
+
+# But explicitly exclude source files and folders you want to keep:
+!**/*.c
+!**/*.h
+!**/*.txt
+!README.md
+
+# Ignore all output folders in any chapter folder (named exactly "output")
+**/output/
+
+# Ignore common build files and IDE files
 *.o
-*.out
-*.a
-*.so
 *.exe
-a.out
+*.out
 *.obj
+*.so
 *.dll
-
-# Ignore any executable (files with no extension in subfolders)
-*/[a-zA-Z0-9]*
-!*/.gitkeep
-!*/*.c
-!*/*.h
-
-# Ignore folders named "output" or "bin" or "build"
-*/output/
-*/build/
-*/bin/
-
-####################################
-# VS CODE + SYSTEM
-####################################
+*.class
 
 # VS Code settings
 .vscode/
-.vscode/*
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs & temp
-*.log
-*.tmp
-*.swp
-*~
-
-####################################
-# Backup files
-####################################
-*.bak
-*.old
-*.orig
